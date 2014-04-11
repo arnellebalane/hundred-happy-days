@@ -1,1 +1,20 @@
 extend ../layouts/default
+
+block content
+  h2.section-title Today's Posts
+  
+  each post in ['', '', '']
+    article.clearfix
+      figure.profile-picture(style="background-image: url('/images/profile-picture.jpg')")
+      .content
+        header
+          a.title(href="#") Lorem ipsum Quis ad elit dolore nostrud.
+          a(href="#") Arnelle Balane
+          time 5 minutes ago
+
+        p Lorem ipsum Excepteur aute commodo nulla cupidatat officia eiusmod dolor id in pariatur velit incididunt veniam sed labore ad consectetur labore eu labore irure aliquip non aliquip ut dolor pariatur id eu eu id deserunt aliqua ea enim nostrud laborum laboris labore.
+
+        p Lorem ipsum Excepteur aute commodo nulla cupidatat officia eiusmod dolor id in pariatur velit incididunt veniam sed labore ad consectetur labore eu labore irure aliquip non aliquip ut dolor pariatur id eu eu id deserunt aliqua ea enim nostrud laborum laboris labore.
+
+block sidebar
+  h2.section-title Happiest People

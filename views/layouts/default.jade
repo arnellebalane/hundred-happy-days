@@ -3,9 +3,15 @@ html
   head
     link(rel="stylesheet" href="/stylesheets/reset.css")
     link(rel="stylesheet" href="/stylesheets/application.css")
+    link(rel="stylesheet" href="/stylesheets/layouts.css")
     link(rel="stylesheet" href="/stylesheets/partials.css")
+    link(rel="stylesheet" href="/stylesheets/pages.css")
     title #{title}
 
-  body
+  body.default
     include ../partials/header
-    block content
+    .wrapper
+      main
+        block content
+      aside
+        block sidebar
