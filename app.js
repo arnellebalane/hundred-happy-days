@@ -2,6 +2,7 @@ var express = require('express');
 var http = require('http');
 var path = require('path');
 var stylus = require('stylus');
+var nib = require('nib');
 var config = require('./config')();
 
 var pages = require('./routes/pages');
@@ -22,7 +23,9 @@ app.use(app.router);
 app.use(stylus.middleware({
   src: './assets',
   dest: './public',
-  compress: true
+  compile: function(str, path) {
+    return stylus(str).set('filename', path).use(nib());
+  }
 }));
 app.use(express.static(path.join(__dirname, 'public')));
 

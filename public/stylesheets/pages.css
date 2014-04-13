@@ -1,1 +1,48 @@
-.section-title{font:normal 2rem/1 "Existence Light";color:#333;text-transform:uppercase;margin-bottom:25px}article{margin-bottom:75px;}article .profile-picture{float:left;width:75px;height:75px;background:#fff center center no-repeat;background-size:cover;background-clip:content-box;border:5px solid #333;border-radius:50%;padding:3px}article .content{float:right;width:550px;}article .content header{padding-top:18px;}article .content header a{font:normal 1.6rem/1 "Existence Light";color:#333;text-decoration:none;}article .content header a.title{display:block;font-size:2.6rem;margin-bottom:3px}article .content header time{font:normal 1.2rem/1 "Existence Light";color:#333;margin-left:15px}article .content p{font:normal 1.6rem/1.3 "Open Sans Light";color:#333;margin:10px 0}
+.section-title {
+  font: normal 2rem/1 "Existence Light";
+  color: #333;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+article {
+  margin-bottom: 75px;
+}
+article .profile-picture {
+  float: left;
+  width: 75px;
+  height: 75px;
+  background: #fff center center no-repeat;
+  background-size: cover;
+  background-clip: content-box;
+  border: 5px solid #333;
+  border-radius: 50%;
+  padding: 3px;
+  margin: 0;
+}
+article .content {
+  float: right;
+  width: 550px;
+}
+article .content header {
+  padding-top: 18px;
+}
+article .content header a {
+  font: normal 1.6rem/1 "Existence Light";
+  color: #333;
+  text-decoration: none;
+}
+article .content header a.title {
+  display: block;
+  font-size: 2.6rem;
+  margin-bottom: 3px;
+}
+article .content header time {
+  font: normal 1.2rem/1 "Existence Light";
+  color: #333;
+  margin-left: 15px;
+}
+article .content p {
+  font: normal 1.6rem/1.3 "Open Sans Light";
+  color: #333;
+  margin: 10px 0;
+}
