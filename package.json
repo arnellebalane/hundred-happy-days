@@ -10,5 +10,23 @@
     "jade": "*",
     "stylus": "*",
     "nib": "*"
-  }
+  },
+  "engines": {
+    "node": "0.8.x"
+  },
+  "gitHead": "139235109b85864f22239525369089970b35c747",
+  "description": "ERROR: No README.md file found!",
+  "main": "app.js",
+  "directories": {
+    "test": "tests"
+  },
+  "devDependencies": {},
+  "repository": "",
+  "keywords": [
+    "hundred",
+    "happy",
+    "days"
+  ],
+  "author": "Arnelle Balane",
+  "license": "BSD"
 }
