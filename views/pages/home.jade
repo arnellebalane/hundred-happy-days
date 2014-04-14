@@ -18,3 +18,11 @@ block content
 
 block sidebar
   h2.section-title Happiest People
+
+  each post in ['', '', '']
+    .profile-card.clearfix
+      figure.profile-picture(style="background-image: url('/images/profile-picture.jpg')")
+      .content
+        a(href="#") Arnelle Balane
+        .progress-bar
+          .progress(data-value="100")
