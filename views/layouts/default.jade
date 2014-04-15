@@ -3,7 +3,15 @@ html
   head
     link(rel="stylesheet" href="/stylesheets/reset.css")
     link(rel="stylesheet" href="/stylesheets/base.css")
+    link(rel="stylesheet" href="/stylesheets/layout.css")
+    link(rel="stylesheet" href="/stylesheets/module.css")
+    link(rel="stylesheet" href="/stylesheets/common.css")
     title hundred happy days
 
   body
-    block content
+    .container
+      section#main
+        block content
+
+      section#sidebar
+        block sidebar
