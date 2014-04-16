@@ -8,12 +8,6 @@
   border-radius: 50%;
   padding: 3px;
 }
-.profpic.profpic-mini {
-  width: 50px;
-  height: 50px;
-  border-width: 4px;
-  padding: 2px;
-}
 .post-entry {
   margin-bottom: 100px;
 }
