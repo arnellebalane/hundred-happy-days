@@ -8,6 +8,12 @@
   border-radius 50%
   padding 3px
 
+  &.profpic-mini
+    width 50px
+    height 50px
+    border-width 3px
+    padding 2px
+
 .post-entry
   margin-bottom 100px
 
@@ -33,3 +39,37 @@
 
   p
     margin-top 15px
+
+.profile-card
+  margin-bottom 10px
+
+  .profpic
+    float left
+
+  .content
+    float right
+    width 240px
+    padding-top 7px
+
+  a
+    font-family "Existence Light"
+
+.progress-container
+  width 220px
+  height 14px
+
+  .progress-bar
+    width 30%
+    height 100%
+    background-color #333333
+    border-radius 2px
+    position relative
+
+    &:after
+      content attr(data-value)
+      font-family "Existence Light"
+      font-size 10px
+      letter-spacing -1px
+      position absolute
+      left 100%
+      margin 2px 0 0 5px
