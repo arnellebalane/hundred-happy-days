@@ -3,7 +3,25 @@
   margin: 0 auto;
 }
 #header {
-  height: 100px;
+  padding: 25px 100px;
+  margin-bottom: 25px;
+}
+#header nav {
+  float: right;
+}
+#header nav a {
+  font: normal 13px/1 "Noto Sans";
+  color: #333;
+  border: 1px solid #333;
+  border-radius: 3px;
+  padding: 7px 10px;
+  margin-left: 5px;
+  outline: none;
+}
+#header nav a:hover,
+#header nav a:focus {
+  color: #fff;
+  background-color: #333;
 }
 #main {
   float: left;
