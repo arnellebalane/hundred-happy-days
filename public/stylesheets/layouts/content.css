@@ -1,0 +1,19 @@
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+#main {
+  float: left;
+  width: 700px;
+  padding-right: 25px;
+}
+#sidebar {
+  float: right;
+  width: 300px;
+}
+.section-header {
+  font-family: "Existence Light";
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
